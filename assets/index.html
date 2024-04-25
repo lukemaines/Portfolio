@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/reset.css">
     <link rel="stylesheet" href="/Assets/style.css">
     <title>Portolio</title>
 </head>
 <body>
     <header id="header">
-        <h1 id="header-title">Luke Maines</h1>
-        <nav>
+        <div id="header-title">
+            <h1>LUKE MAINES</h1>
+        </div>
+        <nav id="header-nav">
             <a href="#">About Me</a>
             <a href="#">Work</a>
             <a href="#">Contact Me</a>
@@ -20,23 +26,21 @@
         <h2>Cool Subtitle Here!</h2>
     </section>
     <main>
-        <aside>
-            <h2>About Me</h2>
-            <h2>Work</h2>
-            <h2>Contact Me</h2>
-            <h2>Resume</h2>
-        </aside>
-        <article>
-            <p class="article-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Quod, dolorem veritatis voluptatibus consequatur ex esse.</p>
-                
-
-
-        </article>
-
-
+        <section id="main-content">
+            <div class="about-me">
+                <h2>About Me</h2>
+                    <p>
+                        My name's Luke and I make websites!
+                    </p>
+            </div>    
+            <div class="work">
+                <h2>Work</h2>
+            </div>    
+            <div class="contact-me">
+                <h2>Contact Me</h2>
+            </div>                   
+        </section>
         
-    
     </main>
     
 </body>
