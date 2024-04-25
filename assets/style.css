@@ -1,6 +1,7 @@
 :root {
     --black: rgb(45, 45, 45); 
     --header-color: rgb(128, 193, 186); 
+    --position: 
 }
 
   
@@ -18,7 +19,6 @@ header {
     height: 35px; 
     border: 3px;
     padding: 20px 20px 20px 0px;
-    margin-bottom: 10px;
 
 
 }
@@ -62,3 +62,26 @@ header {
     margin: 5px; 
 
 }
+
+.hero-image {
+    display: flex;
+    flex-flow: row wrap; 
+    background-image: url(/assets/magicpattern.jpg);
+    background-size: cover;
+    height: 175px; 
+    width: 100%;
+    color: white; 
+
+
+}
+
+.hero-text {
+    margin: auto; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+
+  
+}
+    
