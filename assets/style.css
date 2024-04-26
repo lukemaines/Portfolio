@@ -1,6 +1,7 @@
 :root {
     --black: rgb(45, 45, 45); 
     --header-color: rgb(128, 193, 186); 
+    --white: rgb(254, 251, 245);
 }
 
   
@@ -12,6 +13,7 @@
 
 body {
     padding-top: 60px; 
+    background-color: var(--white);
 }
 header {
     display: flex; 
@@ -84,24 +86,22 @@ header {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px; 
+    font-size: 50px; 
 }
     
-
+/*  
 #main-content {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    height: 100vh; 
+    height: 400px; 
     width: 300px;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
-
-
-
 }
+*/
 /* 
 .main-title {
     flex: 1; 
@@ -111,37 +111,91 @@ header {
 }
 */
 
-.about-me {
+#about-me {
     display: flex;
     align-items: center;
     height: 80px; 
     width: 100vw;
-    border: 5px solid green;
-    padding: 20px;
-    margin: 20px;
+    border: 5px;
+    padding: 5px;
+    margin: 0px;
  
 
 }
 
-.about-me h2 {
-
+#about-me h2 {
+    display: flex;
+    flex-flow: row wrap;
     border-right: 5px solid var(--header-color); 
     margin: 0;
-    height: auto; 
-    padding: 5px; 
-    width: 150px; 
+    height: 60px; 
+    padding: 10px; 
+    width: 200px; 
     font-weight: 400;
     font-style: normal;
     font-size: 30px; 
+    text-align: center;
+    color: var(--black); 
+
  
 }
 
-.about-me-content {
+#about-me-content {
     display: flex; 
-    flex-flow: row wrap; 
-    width: 300px;
+    width: 400px; 
     margin-left: 30px; 
-    
-   
+    height: 60px; 
+    border: 5px; 
+    color: var(--black);
 
 }
+
+#work {
+    display: flex;
+    align-items: center;
+    height: 80px; 
+    width: 100vw;
+    border: 5px;
+    padding: 5px;
+    margin: 0px;
+ 
+
+}
+#work h2 {
+    display: flex;
+    flex-flow: row wrap;
+    border-right: 5px solid var(--header-color); 
+    margin: 0;
+    height: auto; 
+    padding: 10px; 
+    width: 200px; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    text-align: center;
+    color: var(--black); }
+
+#contact-me {
+    display: flex;
+    align-items: center;
+    height: 80px; 
+    width: 100vw;
+    border: 5px;
+    padding: 5px;
+    margin: 0px;
+ 
+
+}
+#contact-me h2 {
+    display: flex;
+    flex-flow: row wrap;
+    border-right: 5px solid var(--header-color); 
+    margin: 0;
+    height: auto; 
+    padding: 10px; 
+    width: 200px; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; 
+    text-align: center;
+    color: var(--black); }
