@@ -130,7 +130,7 @@ header {
     margin: 0;
     height: 60px; 
     padding: 10px; 
-    width: 200px; 
+    width: 150px; 
     font-weight: 400;
     font-style: normal;
     font-size: 30px; 
@@ -140,12 +140,14 @@ header {
  
 }
 
-#about-me-content {
+.about-me-content {
     display: flex; 
     width: 400px; 
-    margin-left: 30px; 
+    flex: 1; 
+    flex-shrink: 1;
+    margin-left: 20px; 
     height: 60px; 
-    border: 5px; 
+    border: 2px; 
     color: var(--black);
 
 }
@@ -168,7 +170,7 @@ header {
     margin: 0;
     height: auto; 
     padding: 10px; 
-    width: 200px; 
+    width: 150px; 
     font-weight: 400;
     font-style: normal;
     font-size: 30px; 
@@ -184,7 +186,6 @@ header {
     padding: 5px;
     margin: 0px;
  
-
 }
 #contact-me h2 {
     display: flex;
@@ -193,9 +194,29 @@ header {
     margin: 0;
     height: auto; 
     padding: 10px; 
-    width: 200px; 
+    width: 150px; 
     font-weight: 400;
     font-style: normal;
     font-size: 30px; 
     text-align: center;
     color: var(--black); }
+
+.contact-me-content {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px; 
+    flex: 1; 
+    flex-shrink: 1;
+    margin: 20px; 
+    height: 60px; 
+    border: 2px; 
+    
+    }
+    
+    .contact-me-content a {
+        color: var(--header-color);
+        margin: 20px; 
+        
+    }
