@@ -72,7 +72,7 @@ header {
 .hero-image {
     display: flex;
     flex-flow: row wrap; 
-    background-image: url(/assets/magicpattern.jpg);
+    background-image: url(/magicpattern.jpg);
     background-size: cover;
     height: 175px; 
     width: 100vw;
@@ -221,14 +221,14 @@ header {
 
 }
 .study-guide {
-    background-image: url(/assets/magicpattern2.jpg);
+    background-image: url(/magicpattern2.jpg);
     background-size: cover;
     width: 100%; 
     height: 300px;
 }
 
 .card-2 {
-    background-image: url(/assets/magicpattern3.jpg);
+    background-image: url(/magicpattern3.jpg);
     background-size: cover;
     height: 150px;
     width: 25%;
@@ -236,7 +236,7 @@ header {
 }
 
 .card-3 {
-    background-image: url(/assets/magicpattern4.jpg);
+    background-image: url(/magicpattern4.jpg);
     background-size: cover;
     height: 150px;
     width: 25%;
@@ -244,14 +244,14 @@ header {
 }
 
 .card-4 {
-    background-image: url(/assets/magicpattern5.jpg);
+    background-image: url(/magicpattern5.jpg);
     background-size: cover;
     height: 150px;
     width: 25%;
 }
  
 .card-5 {
-    background-image: url(/assets/magicpattern6.jpg);
+    background-image: url(/magicpattern6.jpg);
     background-size: cover;
     height: 150px;
     width: 25%;
